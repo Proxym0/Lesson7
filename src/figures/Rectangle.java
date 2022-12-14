@@ -1,6 +1,6 @@
 package figures;
 
-public class Rectangle extends figures {
+public class Rectangle extends Figures {
      double a;
      double b;
 

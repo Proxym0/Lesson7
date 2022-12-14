@@ -2,7 +2,7 @@ package figures;
 
 import java.util.Arrays;
 
-public class Main extends figures{
+public class Main extends Figures {
     public static void main(String[] args) {
         Rectangle rectangle=new Rectangle(10,11);
         double d1=rectangle.square1();
@@ -19,16 +19,15 @@ public class Main extends figures{
         double f2=triangle.perimeter3();
         System.out.println(f1);
         System.out.println(f2);
-        figures[] z={circle,triangle,triangle};
-        System.out.println(Arrays.toString(z));
 
-    }
+        Figures figures=new Figures();
+        Figures[] array={circle,triangle,triangle};
+        System.out.println(Arrays.toString(array));
+        int sum=0;
+        for (int g=0;g<array.length;g++){
+//            array[g]=sum+
+//            System.out.println(array[g]);
 
-    @Override
-    public String toString() {
-        return "Main{" +
-                "square=" + square +
-                ", perimeter=" + perimeter +
-                '}';
+        }
     }
 }

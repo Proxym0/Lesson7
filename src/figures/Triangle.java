@@ -1,6 +1,6 @@
 package figures;
 
-public class Triangle extends figures {
+public class Triangle extends Figures {
     double i;
     double j;
     double z;
@@ -20,5 +20,15 @@ public class Triangle extends figures {
     double perimeter3(){
         perimeter=i+j+z;
         return perimeter;
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "i=" + i +
+                ", j=" + j +
+                ", z=" + z +
+                ", h=" + h +
+                '}';
     }
 }

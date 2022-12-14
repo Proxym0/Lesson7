@@ -1,13 +1,13 @@
 package figures;
 
-public class figures {
+public class Figures {
     protected double square;
-    double perimeter;
+    protected double perimeter;
 
-    public figures() {
+    public Figures() {
     }
 
-    public figures(double square, double perimeter) {
+    public Figures(double square, double perimeter) {
         this.square = square;
         this.perimeter = perimeter;
     }

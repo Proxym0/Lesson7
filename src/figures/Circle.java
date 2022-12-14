@@ -1,6 +1,6 @@
 package figures;
 
-public class Circle extends figures{
+public class Circle extends Figures {
     double r;
 
     public Circle(double r) {
@@ -15,4 +15,10 @@ public class Circle extends figures{
         return perimeter;
     }
 
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "r=" + r +
+                '}';
+    }
 }
