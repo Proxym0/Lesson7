@@ -1,8 +1,8 @@
 package figures;
 
 public class figures {
-    private double square;
-    private double perimeter;
+    protected double square;
+    double perimeter;
 
     public figures() {
     }
@@ -13,6 +13,7 @@ public class figures {
     }
 
     public double getSquare() {
+
         return square;
     }
 
@@ -27,4 +28,13 @@ public class figures {
     public void setPerimeter(double perimeter) {
         this.perimeter = perimeter;
     }
+
+    @Override
+    public String toString() {
+        return "figures{" +
+                "square=" + square +
+                ", perimeter=" + perimeter +
+                '}';
+    }
 }
+
