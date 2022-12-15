@@ -19,6 +19,8 @@ public class Circle extends Figures {
     public String toString() {
         return "Circle{" +
                 "r=" + r +
+                ", square=" + square +
+                ", perimeter=" + perimeter +
                 '}';
     }
 }

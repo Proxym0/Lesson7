@@ -29,6 +29,8 @@ public class Triangle extends Figures {
                 ", j=" + j +
                 ", z=" + z +
                 ", h=" + h +
+                ", square=" + square +
+                ", perimeter=" + perimeter +
                 '}';
     }
 }
