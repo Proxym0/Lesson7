@@ -24,7 +24,7 @@ public class Main extends Figures {
         System.out.println("____________");
         double sum=0;
         for (int g=0;g<array.length;g++){
-            sum=sum +array[g].getPerimeter();
+            sum=sum+array[g].getPerimeter();
         }
         System.out.println(sum);
     }

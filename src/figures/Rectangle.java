@@ -13,22 +13,22 @@ public class Rectangle extends Figures {
         this.b = b;
     }
     public double square1() {
-
-        square=a*b;
+       double square=a*b;
+        setSquare(square);
         return square;
     }
     public double perimeter1() {
-        perimeter=2 * (a + b);
+       double perimeter=2 * (a + b);
+        setPerimeter(perimeter);
         return perimeter;
     }
 
     @Override
     public String toString() {
-        return "rectangle{" +
+        return "Rectangle{" +
                 "a=" + a +
                 ", b=" + b +
-                ", square=" + square +
-                ", perimeter=" + perimeter +
-                '}';
+                "} " + super.toString();
+
     }
 }

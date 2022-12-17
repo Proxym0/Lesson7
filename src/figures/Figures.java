@@ -1,8 +1,8 @@
 package figures;
 
 public class Figures {
-    protected double square;
-    protected double perimeter;
+    private double square;
+    private double perimeter;
 
     public Figures() {
     }
@@ -12,9 +12,9 @@ public class Figures {
         this.perimeter = perimeter;
     }
 
-    public double getSquare() {
+    public double getSquare(double square) {
 
-        return square;
+        return this.square;
     }
 
     public void setSquare(double square) {
@@ -22,7 +22,7 @@ public class Figures {
     }
 
     public double getPerimeter() {
-        return perimeter;
+        return this.perimeter;
     }
 
     public void setPerimeter(double perimeter) {

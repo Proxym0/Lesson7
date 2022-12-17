@@ -7,11 +7,13 @@ public class Circle extends Figures {
         this.r = r;
     }
     double square2(){
-        square=r*r*Math.PI;
+        double square=r*r*Math.PI;
+        setSquare(square);
         return square;
     }
     double perimeter2(){
-        perimeter=2*r*Math.PI;
+       double perimeter=2*r*Math.PI;
+        setPerimeter(perimeter);
         return perimeter;
     }
 
@@ -19,8 +21,6 @@ public class Circle extends Figures {
     public String toString() {
         return "Circle{" +
                 "r=" + r +
-                ", square=" + square +
-                ", perimeter=" + perimeter +
-                '}';
+                "} " + super.toString();
     }
 }

@@ -14,11 +14,13 @@ public class Triangle extends Figures {
     }
 
     double square3(){
-        square=(i*h)/2;
+       double square=(i*h)/2;
+        setSquare(square);
         return square;
     }
     double perimeter3(){
-        perimeter=i+j+z;
+       double perimeter=i+j+z;
+        setPerimeter(perimeter);
         return perimeter;
     }
 
@@ -29,8 +31,6 @@ public class Triangle extends Figures {
                 ", j=" + j +
                 ", z=" + z +
                 ", h=" + h +
-                ", square=" + square +
-                ", perimeter=" + perimeter +
-                '}';
+                "} " + super.toString();
     }
 }
